@@ -283,7 +283,6 @@ begin
   WriteLn; // Add an empty line for formatting
 
   // Set the desired test number to run
-  // NOTE: This is currently hardcoded; could be made dynamic later
   LNum := 01;
 
   // Execute the selected test based on the value of LNum
