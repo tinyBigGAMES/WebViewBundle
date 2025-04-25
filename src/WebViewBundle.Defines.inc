@@ -28,3 +28,9 @@
   {$MESSAGE Error 'Unsupported platform'}
 {$ENDIF}
 
+{$IF (CompilerVersion < 36.0)}
+  {$IFNDEF WIN64}
+    {$MESSAGE Error 'Must use Delphi 12 or higher'}
+  {$ENDIF}
+{$IFEND}
+
