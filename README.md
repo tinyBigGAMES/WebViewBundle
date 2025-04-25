@@ -16,7 +16,7 @@ With WebViewBundle, you can:
 It’s ideal for tools, dashboards, hybrid apps, and offline frontends.
 
 #### 🔧 Key Features  
-- 💼 Standalone .exe with embedded resources  
+- 💼 Standalone .exe with embedded resources (will automatically install WebView2 runtime if not found)
 - ⚡ Fast and memory-efficient loading from a stream  
 - 🧩 Configurable startup page  
 - 🌍 Clean separation of UI and logic  

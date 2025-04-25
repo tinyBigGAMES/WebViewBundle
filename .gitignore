@@ -79,3 +79,10 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+/bin/WebView2
+/bin/data/EBWebView
+/bin/output/exe
+/bin/output
+!bin/res/untree.co-sterial/*
+bin/Testbed.ini
+*.dsv

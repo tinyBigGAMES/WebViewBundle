@@ -1,0 +1,45 @@
+object WebViewBundleForm: TWebViewBundleForm
+  Left = 0
+  Top = 0
+  Margins.Left = 5
+  Margins.Top = 5
+  Margins.Right = 5
+  Margins.Bottom = 5
+  Caption = 'WebViewBundle'
+  ClientHeight = 664
+  ClientWidth = 938
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -18
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poDesigned
+  ShowInTaskBar = True
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 144
+  TextHeight = 25
+  object Browser: TEdgeBrowser
+    AlignWithMargins = True
+    Left = 5
+    Top = 5
+    Width = 928
+    Height = 654
+    Margins.Left = 5
+    Margins.Top = 5
+    Margins.Right = 5
+    Margins.Bottom = 5
+    Align = alClient
+    TabOrder = 0
+    AllowSingleSignOnUsingOSPrimaryAccount = False
+    TargetCompatibleBrowserVersion = '117.0.2045.28'
+    UserDataFolder = '.\WebView2'
+    OnCreateWebViewCompleted = BrowserCreateWebViewCompleted
+    OnDocumentTitleChanged = BrowserDocumentTitleChanged
+    OnNavigationCompleted = BrowserNavigationCompleted
+    OnNewWindowRequested = BrowserNewWindowRequested
+    OnWebResourceRequested = BrowserWebResourceRequested
+    OnWindowCloseRequested = BrowserWindowCloseRequested
+  end
+end

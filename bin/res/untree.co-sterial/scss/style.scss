@@ -1,0 +1,26 @@
+/*
+* Template Name: Sterial
+* Template Author: Untree.co
+* Template License: https://creativecommons.org/licenses/by/3.0/
+* Author URI: https://untree.co/
+
+* Twitter: https://twitter.com/Untree_co
+* Facebook: https://web.facebook.com/Untree.co/
+*/
+
+
+$primary: #f17945;
+$secondary: #343661;
+
+$font-family-sans-serif: 'Inter', sans-serif;
+$font-family-sans-serif-secondary: 'Brygada 1918', sans-serif;
+
+@import 'bootstrap/mixins';
+@import 'bootstrap/functions';
+@import 'bootstrap/variables';
+@import 'bootstrap/bootstrap';
+
+@import 'components/site-base';
+@import 'components/site-navbar';
+@import 'components/site-blocks';
+@import 'components/site-footer';
